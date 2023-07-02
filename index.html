@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Heading Section -->
+    <h1>Holidays</h1>
+    <h2>Use a two-letter country code to specify the country for which you want to retrieve holiday data.</h2>
+
+    <!-- Form Section -->
+    <div class="container">
+        <form id="searchForm">
+            <!-- Country Input -->
+            <div>
+                <label for="country">Country:</label>
+                <input type="text" id="country" value="US" required>
+            </div>
+
+            <!-- Year Input -->
+            <div>
+                <label for="year">Year:</label>
+                <input type="number" id="year" value="2023" required>
+            </div>
+
+            <!-- Search Button -->
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <!-- Results Section -->
+    <div id="results"></div>
+
+    <!-- Script Section -->
+    <script src="script.js"></script>
+</body>
+</html>
