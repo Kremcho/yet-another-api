@@ -15,7 +15,7 @@ $(document).ready(() => {
 
         // Send AJAX request to retrieve holidays
         $.ajax({
-            url: `https://calendarific.com/api/v2/holidays?api_key=06c3246f322465d50f3c2e4c824905d58b1faf06&country=${country}&year=${year}`,
+            url: `https://calendarific.com/api/v2/holidays?api_key=1ac877abfbb8598395823ac1f337facb7ddc508b&country=${country}&year=${year}`,
             method: 'GET',
             success: (data) => {
                 const holidays = data.response.holidays;
